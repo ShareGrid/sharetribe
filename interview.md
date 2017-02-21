@@ -1,15 +1,21 @@
 ## Code Quiz
 
-Please fork [this repository](https://github.com/sharetribe/sharetribe) and get it running on your computer. The README has complete instructions for getting rails/mysql/sphinx fired up. 
+1. Please fork [this repository](https://github.com/sharetribe/sharetribe) and get it running on your computer. 
+  - The README has complete instructions for getting rails/mysql/sphinx fired up. 
+2. Seed some items into the database. 
+3. Build the feature
 
 ___
 
 Your feature request is to build **Amazon-style wishlists**. 
 
-- logged-in user should be able to add/remove each listing from their `"favorites"`. 
-- header menu should have a link to visit the favorites. but only if they have favorited at least one item. 
+- logged-in user should be able to add/remove each listing from their *"favorites"* list. 
+- header menu should have a link to visit the list, but only if they have favorited at least one item. 
 
-**Bonus:** user can have many favorites lists, and be able to update the name of the list. 
+**Bonus:** 
+- A user can have many lists
+- Can choose which list a listing is added to
+- Can Update the name of the list
 
 ___ 
 
